@@ -1,0 +1,72 @@
+﻿@*@model PPM_Model.RoleModel
+@{
+    ViewBag.Title = "RoleDashboard";
+}
+
+
+<style>
+
+    h3 {
+        text-align: center;
+        color: white;
+        font: bold;
+    }
+
+    body {
+        background-color: black;
+        color: wheat;
+    }
+
+    .cls {
+        color: red;
+    }
+
+    tr {
+        color: gold;
+    }
+
+    th {
+        color: wheat;
+    }
+</style>
+<body>
+
+    <h2>Dashboard</h2>
+
+    <h3><b style="color:red">Welcome</b> @Session["RoleName"]</h3>
+
+    <table class="table">
+        <tr>
+            <th> Id</th>
+            <th> Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>@Session["RoleId"]</td>
+            <td> @Session["RoleName"]</td>
+            <td> @Session["RoleEmail"]</td>
+
+        </tr>
+
+    </table>
+    @Html.ActionLink("LogOut", "Logout", "Role", new { @class = "btn btn-danger" })
+    @Html.ActionLink("Add+", "Employee", "Employee", new { @class = "btn btn-primary" })
+        <a href="@Url.Action("/Employee/Employee")" class="btn btn-primary">+ ADD</a>
+
+  
+        @if(Session["RoleName"] != null && Session["RoleName"].ToString() == "Admin")
+        {
+        @Html.ActionLink("Add+", "Employee", "Employee", null, new { @class = "btn btn-primary", id = "OT", style = "color: white" })
+        }
+    
+
+
+
+
+
+</body>*@
+
+
+
+
+

@@ -1,0 +1,10 @@
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Debug\PPM_Contracts.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Debug\PPM_Contracts.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Debug\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Debug\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Debug\PPM_Model.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Debug\PPM_Contracts.csproj.AssemblyReference.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Debug\PPM_Contracts.csproj.CoreCompileInputs.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Debug\PPM_Contracts.csproj.CopyComplete
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Debug\PPM_Contracts.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Debug\PPM_Contracts.pdb

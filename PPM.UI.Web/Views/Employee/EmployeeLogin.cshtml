@@ -1,0 +1,62 @@
+﻿@*@model PPM_Model.EmployeeModel
+@{
+    ViewBag.Title = "EmployeeLogin";
+}
+
+<style>
+    .con {
+        height: 200px;
+        border: 0.5px solid black;
+    }
+
+    body {
+        background-color: black;
+        text-align: center;
+    }
+
+    .container {
+        color: wheat;
+    }
+
+    .cls {
+        margin: 44px;
+    }
+</style>
+<h2 style="color:white"><b> Employee Login</b></h2>
+
+<body>
+    <div class="container">
+        @using (Html.BeginForm("AddEmployee", "Employee", FormMethod.Post))
+        {
+        <div col-md-offset-4 class="cls">
+            <label class="label-danger" style="color:white">@ViewBag.ErrorMessage</label>
+            <div>
+                @Html.LabelFor(x => x.EmpEmail)
+                @Html.ValidationMessageFor(x => x.EmpEmail, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.EditorFor(x => x.EmpEmail, new { @class = "form-cotrol" })
+            </div>
+            <div>
+                @Html.LabelFor(x => x.EmpPassword)
+                @Html.ValidationMessageFor(x => x.EmpPassword, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                 @Html.EditorFor(x => x.EmpPassword, new { @class = "form-cotrol" })
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-info">Login</button>
+                <a href="/Employee/Reset" class="btn btn-danger">Reset</a>
+            </div>
+            <div>
+                <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+                <script src="~/Scripts/jquery.validate.min.js"></script>
+                <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+            </div>
+            <div>
+                <a href="@Url.Action("EmployeeList")" class="btn btn-primary">Back To Project</a>-->
+            </div>
+        </div>
+        }
+    </div>
+</body>*@

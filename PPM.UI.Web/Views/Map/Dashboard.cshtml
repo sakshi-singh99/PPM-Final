@@ -1,0 +1,63 @@
+﻿@*@model PPM_Model.AddEmpToProjModel*@
+@model List<PPM_Model.ProjEmpMap>
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+
+<style>
+
+    h3 {
+        text-align: center;
+        color: white;
+        font: bold;
+    }
+
+    body {
+        color: black;
+        background-image: url('../../Content/themes/base/images/Allbg.jpg');
+        background-size: cover;
+    }
+
+    .cls {
+        color: red;
+    }
+/*
+    tr {
+        color: gold;
+    }
+
+    th {
+        color: wheat;
+    }*/
+</style>
+<body>
+
+    <table class="table">
+        <tr>
+            <th>Project Id</th>
+            <th>Project Name</th>
+            <th>Project Start Date</th>
+            <th>Project End Date</th>
+
+            <th>  </th>
+
+
+
+        </tr>
+        @foreach (var info in Model)
+        {
+    <tr>
+
+        <td>@info.ProjectId</td>
+        <td>@info.ProjectName</td>
+        <td>@info.ProjectStartDate</td>
+        <td>@info.ProjectEndDate</td>
+
+        <td><b>@ViewBag.Message</b></td>
+
+    </tr>
+        }
+    </table>
+</body>

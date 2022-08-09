@@ -1,0 +1,39 @@
+﻿@model List<PPM_Model.RoleModel>
+
+@{
+    ViewBag.Title = "RoleList";
+}
+<style>
+    body {
+        background-image: url('../../Content/themes/base/images/Allbg.jpg');
+        background-size: cover;
+        color: black;
+    }
+ 
+</style>
+
+<body>
+    <h2>RoleList</h2>
+
+    <a href="@Url.Action("Role")" class="btn btn-primary">+ ADD</a>
+    <table class="table">
+        <tr>
+            <th> Id</th>
+            <th> Name</th>
+            <th>Email</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RoleId</td>
+                <td>@item.RoleName</td>
+
+                <td>
+                    <a href="@Url.Action("EditRole","Role",new { id=item.RoleId})" class="btn btn-success">Edit</a>
+                    <a href="@Url.Action("DeleteRole",new {id = item.RoleId})" class="btn btn-danger" onclick="return confirm('Are you sure want to delete ? : @item.RoleName ')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>

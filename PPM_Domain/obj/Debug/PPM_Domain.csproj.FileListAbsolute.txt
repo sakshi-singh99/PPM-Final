@@ -1,0 +1,11 @@
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\bin\Debug\PPM_Domain.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\bin\Debug\PPM_Domain.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\bin\Debug\PPM_Domain.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\bin\Debug\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\bin\Debug\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\bin\Debug\PPM_Model.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Debug\PPM_Domain.csproj.AssemblyReference.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Debug\PPM_Domain.csproj.CoreCompileInputs.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Debug\PPM_Domain.csproj.CopyComplete
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Debug\PPM_Domain.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Debug\PPM_Domain.pdb

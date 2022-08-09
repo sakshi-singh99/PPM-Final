@@ -1,0 +1,37 @@
+﻿@model  List<PPM_Model.AddEmpToProjModel>
+@{
+    ViewBag.Title = "List";
+}
+
+<style>
+    body {
+        background-image: url('../../Content/themes/base/images/Allbg.jpg');
+        background-size: cover;
+        color: black;
+    }
+</style>
+
+<body>
+    <h2>List</h2>
+
+    @*<a href="@Url.Action("Map")" class="btn btn-primary">+ ADD</a>*@
+    <table class="table">
+        <tr>
+            <th>Employee Id</th>
+            <th> Project Id</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>@item.FirstName</td>*@
+                <td>@item.EmployeeId</td>
+                <td>@item.ProjectId</td>
+                @*<td>
+                        <a href="@Url.Action("EditProject","Project",new { id=item.ProjectId})" class="btn btn-success">Edit</a>
+                        <a href="@Url.Action("DeleteProject",new {id = item.ProjectId})"
+                           class="btn btn-danger" onclick="return confirm('Are you sure want to delete ? : @item.ProjectName ')">Delete</a>
+                    </td>*@
+            </tr>
+        }
+    </table>
+</body>

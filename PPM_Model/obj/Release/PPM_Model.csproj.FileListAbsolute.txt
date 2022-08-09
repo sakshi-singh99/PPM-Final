@@ -1,0 +1,14 @@
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\PPM_Model.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\xunit.abstractions.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\xunit.core.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\xunit.execution.desktop.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\xunit.abstractions.xml
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\xunit.core.xml
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Release\xunit.execution.desktop.xml
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Release\PPM_Model.csproj.CoreCompileInputs.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Release\PPM_Model.csproj.CopyComplete
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Release\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Release\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Release\PPM_Model.csproj.AssemblyReference.cache

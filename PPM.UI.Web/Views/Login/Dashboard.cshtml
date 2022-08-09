@@ -1,0 +1,120 @@
+﻿@model PPM.UI.Web.Models.CurrentUser
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<style>
+
+   /* table, th, td {
+        border: 1px  black;
+        border-collapse: collapse;
+    }*/
+    table, th, td {
+        border: 1px  black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 5px;
+        text-align: left;
+    }
+  /*  th {
+        padding: 5px;
+        text-align: right;
+    }*/
+
+    /*td {
+        padding: 5px;*/
+        /*text-align:left;*/
+        /*text-align:left;
+    }
+
+    h3 {
+        text-align: center;
+        color: slateblue;
+        font: bold;
+    }*/
+
+    body {
+        color: black;
+        background-image: url('../../Content/themes/base/images/Allbg.jpg');
+        background-size: cover;
+        text-align: center;
+        
+    }
+
+
+    .con {
+        margin-top: 35px;
+        max-width: 300px;
+        margin-left:40%;
+        background-color: lightgray;
+    }
+
+    .cls {
+        color: red;
+    }
+
+    h1{
+        font:bold;    }
+    h3{
+        color:blue;
+    }
+</style>
+<body>
+    @*<h2>Dashboard</h2>*@
+
+    <h3><b style="color:red"> Welcome </b>@Model.FirstName  @Model.LastName</h3><hr />
+
+    <div class="con">
+        <table class="center" style="width:100%">
+            <tr>
+                <th>Employee Id : </th>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <th>First Name : </th>
+                <td>@Model.FirstName</td>
+            </tr>
+            <tr>
+                <th>Last Name : </th>
+                <td>@Model.LastName</td>
+            </tr>
+
+            <tr>
+                <th>Mobile : </th>
+                <td>@Model.Mobile</td>
+            </tr>
+
+            <tr>
+                <th>Email : </th>
+                <td>@Model.Email</td>
+            </tr>
+
+            <tr>
+                <th>Address : </th>
+                <td>@Model.Address</td>
+            @*<tr>
+                <th>Role Id : </th>
+                <td>@Model.RoleId</td>
+            </tr>*@
+
+            <tr>
+                <th>Role Name : </th>
+                <td>@Model.RoleName</td>
+            </tr>
+        </table>
+    </div>
+    @*<h2>
+            Id :       @Model.Id<br />
+            Name :     @Model.FirstName  @Model.LastName<br />
+            Mobile:    @Model.Mobile<br />
+            Email:     @Model.Email<br />
+            Address:   @Model.Address<br />
+            Role:      @Model.RoleName<br />
+        </h2>*@
+
+
+
+
+</body>

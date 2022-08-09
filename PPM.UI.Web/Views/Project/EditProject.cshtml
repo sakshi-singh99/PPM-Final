@@ -1,0 +1,70 @@
+﻿@model PPM_Model.ProjectModel
+@{
+    ViewBag.Title = "EditProject";
+}
+
+<h2>EditProject</h2>
+
+<style>
+    .error {
+        color: red;
+        font: bold;
+    }
+
+    .form {
+        margin: 20px;
+    }
+
+    body {
+        background-image: url('../../Content/themes/base/images/Allbg.jpg');
+        background-size: cover;
+        color:black;
+    }
+</style>
+
+<body>
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    @section scripts
+    {
+        <script src="~/Scripts/jquery-ui-1.13.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".datefield").datepicker({
+                    dateFormat: "dd-mm-yy",
+                    changemonth: true,
+                    changeyear: true
+                });
+            });
+        </script>
+    }
+
+    @using (Html.BeginForm("EditProject", "Project", FormMethod.Post))
+    {
+        <div class="container">
+            @Html.HiddenFor(x => x.ProjectId)
+            <label>Project Name</label>
+            @Html.ValidationMessageFor(x => x.ProjectName, "", new { @class = "error" })
+            @Html.EditorFor(x => x.ProjectName, new { @class = "form-control" })
+
+        </div>
+        <div class="form-group">
+            <label>Project Start Date</label>
+            @Html.ValidationMessageFor(x => x.ProjectStartDate, "", new { @class = "error" })
+            @Html.EditorFor(x => x.ProjectStartDate, new { htmlAttribute = new { @class = "form-control datefield" } })
+            @ViewBag.Message
+        </div>
+        <div class="form-group">
+            <label>ProjectEndDate</label>
+            @Html.ValidationMessageFor(x => x.ProjectEndDate, "", new { @class = "error" })
+            @Html.EditorFor(x => x.ProjectEndDate, new { htmlAttribute = new { @class = "form-control datefield" } })
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Save</button>
+            @*<button type="reset" class="btn btn-danger">Reset</button>*@
+        </div>
+        <div>
+            @*<a href="@Url.Action("ProjectList")" class="btn btn-primary">Back To Project</a>*@
+        </div>
+        <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    }
+</body>

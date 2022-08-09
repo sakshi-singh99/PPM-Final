@@ -1,0 +1,53 @@
+﻿@model PPM_Model.AddEmpToProjModel
+@{
+    ViewBag.Title = "Map";
+}
+
+<h2>Map</h2>
+
+<style>
+    .error {
+        color: red;
+        font: bold;
+    }
+
+    .form {
+        margin: 20px;
+    }
+    body {
+        background-image: url('../../Content/themes/base/images/Allbg.jpg');
+        background-size: cover;
+        color: black;
+    }
+</style>
+
+<body>
+    @using (Html.BeginForm("Add", "Map", FormMethod.Post))
+    {
+        <div class="container">
+            <div class="form-group">
+                <label>Project Name</label>
+                @Html.ValidationMessageFor(x => x.ProjectId, "", new { @class = "error" })
+                @*@Html.TextBoxFor(x => x.ProjectId, new { @class = "form-cotrol" })*@
+               @Html.DropDownListFor(x => x.ProjectId,ViewBag.Project as SelectList, "--Select--", new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                <label>Employee Name</label>
+                @Html.ValidationMessageFor(x => x.EmployeeId, "", new { @class = "error" })
+                @*@Html.TextBoxFor(x => x.EmployeeId, new { @class = "form-cotrol" })*@
+                @Html.DropDownListFor(x => x.EmployeeId, ViewBag.Employee as SelectList,"--Select--", new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
+            </div>
+
+            <div>
+                <a href="@Url.Action("List")" class="btn btn-primary">Back To Map</a>
+            </div>
+
+        </div>
+    }
+</body>

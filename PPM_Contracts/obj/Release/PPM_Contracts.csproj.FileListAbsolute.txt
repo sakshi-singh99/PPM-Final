@@ -1,0 +1,10 @@
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Release\PPM_Contracts.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Release\PPM_Contracts.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Release\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Release\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\bin\Release\PPM_Model.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Release\PPM_Contracts.csproj.AssemblyReference.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Release\PPM_Contracts.csproj.CoreCompileInputs.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Release\PPM_Contracts.csproj.CopyComplete
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Release\PPM_Contracts.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Contracts\obj\Release\PPM_Contracts.pdb

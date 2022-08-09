@@ -1,0 +1,7 @@
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Debug\PPM_Model.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Debug\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\bin\Debug\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Debug\PPM_Model.csproj.CoreCompileInputs.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Debug\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Debug\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Model\obj\Debug\PPM_Model.csproj.AssemblyReference.cache

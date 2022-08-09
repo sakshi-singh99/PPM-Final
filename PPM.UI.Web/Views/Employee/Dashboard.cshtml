@@ -1,0 +1,65 @@
+﻿@*@model PPM_Model.EmployeeModel
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<style>
+
+    h3 {
+        text-align: center;
+        color: white;
+        font: bold;
+    }
+
+    body {
+        background-color: black;
+        color: wheat;
+    }
+
+    .cls {
+        color: red;
+    }
+
+    tr {
+        color: gold;
+    }
+
+    th {
+        color: wheat;
+    }
+</style>
+<body>
+
+    <h2>Dashboard</h2>
+
+    <h3><b style="color:red"> Welcome</b> @Session["EmpFirstName"]</h3>
+
+    <table class="table">
+        <tr>
+            <th>Employee Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Mobile</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Role Id</th>
+
+        </tr>
+        <tr>
+            <td>@Session["EmpId"]</td>
+            <td> @Session["EmpFirstName"]</td>
+            <td> @Session["EmpLastName"]</td>
+            <td> @Session["EmpMobile"]</td>
+            <td> @Session["EmpEmail"]</td>
+            <td> @Session["EmpAddress"] </td>
+            <td> @Session["EmpRoleId"]</td>
+        </tr>
+
+    </table>
+    @Html.ActionLink("LogOut", "Logout", "Employee", new { @class = "btn btn-danger" })
+</body>*@
+
+
+
+
+

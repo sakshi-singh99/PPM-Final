@@ -1,0 +1,70 @@
+﻿@*@model PPM_Model.RoleModel
+@{
+    ViewBag.Title = "RoleLogin";
+}
+
+<style>
+
+    body {
+        background-color: black;
+        text-align: center;
+        margin: 24px;
+    }
+
+    .container {
+        color: wheat;
+    }
+
+    h2 {
+        margin: 12px;
+    }
+
+    .cls {
+        margin: 35px;
+    }
+</style>
+<h2 style="color:white"><b>Role Login</b></h2>
+<body>
+    <div class="container">
+        @using (Html.BeginForm("Autherize", "Role", FormMethod.Post))
+        {
+        <div col-md-offset-4 class="cls">
+            <label class="label-danger" style="color:white"> @ViewBag.ErrorMessage</label>
+            <div>
+                @Html.LabelFor(x => x.RoleEmail)
+                @Html.ValidationMessageFor(x => x.RoleEmail, "", new { @class = "text-danger" })
+                <label class="label-danger" style="color:white"> @ViewBag.ErrorMessage</label>
+            </div>
+
+            <div class="form-group">
+
+                @Html.EditorFor(x => x.RoleEmail, new { @class = "form-cotrol" })
+            </div>
+            <div>
+                @Html.LabelFor(x => x.RolePassword)
+                @Html.ValidationMessageFor(x => x.RolePassword, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+
+                 @Html.EditorFor(x => x.RolePassword, new { @class = "form-cotrol" })
+
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-info">Login</button>
+                <a href="/Role/Reset" class="btn btn-danger">Reset</a>
+            </div>
+            <div>
+                <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+                <script src="~/Scripts/jquery.validate.min.js"></script>
+                <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+            </div>
+            <div>
+                <a href="@Url.Action("EmployeeList")" class="btn btn-primary">Back To Project</a>-->-->
+            </div>
+
+        </div>
+
+        }
+
+    </div>
+</body>*@
