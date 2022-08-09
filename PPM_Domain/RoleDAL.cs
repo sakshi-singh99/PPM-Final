@@ -19,12 +19,7 @@ namespace PPM_DAL
         //Add Role
         public string AddRole(RoleModel role)
         {
-           // Regex regexRId = new Regex(@"^([1-9][0-9]{0,3})$");
             Regex regexRname = new Regex("^[A-Z][a-zA-Z ]*$");
-            //if (!regexRId.Match(role.RoleId).Success)
-            //{
-            //    return "Invalid Id !!";      
-            //}
             if (!regexRname.Match(role.RoleName).Success)
             {
                 return "Invalid Name !!";

@@ -11,3 +11,16 @@ C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Release\PPM_DAL.c
 C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Release\PPM_DAL.csproj.CopyComplete
 C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Release\PPM_Domain.dll
 C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM_Domain\obj\Release\PPM_Domain.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Domain.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Domain.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Domain.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Contracts.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Model.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Contracts.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Model.pdb
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\bin\Release\PPM_Model.dll.config
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\obj\Release\PPM_DAL.csproj.AssemblyReference.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\obj\Release\PPM_DAL.csproj.CoreCompileInputs.cache
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\obj\Release\PPM_DAL.csproj.CopyComplete
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\obj\Release\PPM_Domain.dll
+C:\Users\nisha\OneDrive\Desktop\.net\PPM Task 4\PPM-Final\PPM_Domain\obj\Release\PPM_Domain.pdb

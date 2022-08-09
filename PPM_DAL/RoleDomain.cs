@@ -75,10 +75,6 @@ namespace PPM_Domain
             objrole.UpdateRole(model);
         }
 
-        //public RoleModel AutherizeRoles(RoleModel model)
-        //{
-        //    return objrole.AutherizeRole(model);
-        //}
 
         public IEnumerable<RoleModel> Listrole()
         {

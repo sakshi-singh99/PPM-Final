@@ -104,10 +104,6 @@ namespace PPM_EntityFrameWork
             using (var db = new AppDbContextEntities())
             {
                 var userDetail = db.AddEmp.Where(x => x.EmployeeId == model.EmployeeId).FirstOrDefault();
-                //if (userDetail == null)
-                //{
-                //    throw new System.Exception("Wrong Credential");
-                //}
                 return userDetail;
             }
         }

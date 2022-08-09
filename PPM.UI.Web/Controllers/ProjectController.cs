@@ -33,19 +33,8 @@ namespace PPM.UI.Web.Controllers
                 db.SaveChanges();
             }
             ModelState.Clear();
-
-            //if(status == "Successfully added...")
-            //{
-            //    //sucess
                 return View("ProjectList", obj.ListAll());
-            //}
-            //else
-            //{
-            //    //print error(s) - status
-            //    //ViewBag.Message = "fghj";
-            //}
-            //return View();
-           
+       
         }
 
         public ActionResult ProjectList()

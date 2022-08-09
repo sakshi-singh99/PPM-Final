@@ -30,7 +30,6 @@ namespace PPM.UI.Web.Controllers
             {
                 ViewBag.ErrorMessage = "Invalid Email or Password!";
                 return View("Login", model);
-                //return View();
             }
             else
             {
@@ -39,7 +38,6 @@ namespace PPM.UI.Web.Controllers
                 cookie.Values.Add("EmpId", obj.AutherizeEmployee(model).EmpId.ToString());
                 Response.Cookies.Add(cookie);
                 HttpCookie cookiee = new HttpCookie("UserInfoo");
-                //HttpCookie cookie2 = new HttpCookie("EmpRoleId", obj.AutherizeEmployee(model).EmpRoleId.ToString());
                 cookiee.Values.Add("EmpRoleId", obj.AutherizeEmployee(model).EmpRoleId.ToString());
                 Response.Cookies.Add(cookiee);
                 return RedirectToAction("Dashboard", "Login");
@@ -88,9 +86,5 @@ namespace PPM.UI.Web.Controllers
             return RedirectToAction("Login", "Login");
         }
 
-        //public ActionResult Ppm()
-        //{
-        //    return View();
-        //}
     }
 }

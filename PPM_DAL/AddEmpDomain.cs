@@ -36,10 +36,6 @@ namespace PPM_Domain
             return objAdd.ListByempId(rId);
         }
 
-        //public  AutherizeMap(AddEmpToProjModel model)
-        //{
-        //    return objAdd.AutherizeMap(model);
-        //}
 
         public IEnumerable<AddEmpToProjModel> ListEmp()
         {

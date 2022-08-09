@@ -54,9 +54,7 @@ namespace PPM.UI.Web.Controllers
         [Authorize]
         public ActionResult Dashboard()
         {
-            //Add currentUser = new CurrentUser();
-
-            //AddEmpToProjModel currentUser = new AddEmpToProjModel();
+        
             if (Request.Cookies["UserInfo"] != null)
             {
                 string currentUserId = Request.Cookies["UserInfo"].Values.Get("EmpId");

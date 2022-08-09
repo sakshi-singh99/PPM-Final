@@ -72,19 +72,6 @@ namespace PPM_EntityFrameWork
         {
             using (var db = new AppDbContextEntities())
             {
-                //var roles = new List<RoleModel>();
-                //var role = db.Roles.Where(s => s.RoleName == rName).FirstOrDefault<RoleModel>();
-                //if (role != null)
-                //{
-                //    roles.Add(new RoleModel()
-                //    { 
-                //        RoleId = role.RoleId,
-                //        RoleName = role.RoleName,
-                //        RoleEmail = role.RoleEmail,
-                //        RolePassword = role.RolePassword
-                //    });
-                //}
-                //return role;
                 var result = (from role in db.Roles where role.RoleName == rName select role.RoleName).ToArray();
                 return result;
             }
@@ -110,16 +97,6 @@ namespace PPM_EntityFrameWork
                 db.SaveChanges();
             }
         }
-
-        //public RoleModel AutherizeRole(RoleModel model)
-        //{
-        //    using (var db = new AppDbContextEntities())
-        //    {
-        //        var userDetail = db.Roles.Where(x => x.RoleEmail == model.RoleEmail && 
-        //        x.RolePassword == model.RolePassword).FirstOrDefault();
-        //        return userDetail;
-        //    }
-        //}
 
         public IEnumerable<RoleModel> List()
         {

@@ -30,10 +30,8 @@ namespace PPM_DAL
         //Delete
         public void DeleteByEid(int eId)
         {
-           // AddEmpToProjDal obj = new AddEmpToProjDal();
             var searchEmployeeId = _employee.FirstOrDefault(i => i.EmpId == eId);
                 _employee.Remove(searchEmployeeId);
-               // obj.Delemp(eId);
         }
 
         public IEnumerable<EmployeeModel> ListAll()

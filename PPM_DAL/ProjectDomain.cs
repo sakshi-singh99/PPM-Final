@@ -13,12 +13,6 @@ namespace PPM_Domain
 
         public string AddProj(ProjectModel project)
         {
-            //Regex regexPname = new Regex("^[A-Z][a-zA-Z ]*$");
-
-            //if (!regexPname.Match(project.ProjectName).Success)
-            //{
-            //    throw new System.Exception("Invalid Name !!");
-            //}
             if (project.ProjectStartDate > project.ProjectEndDate)
             {
                 return ("End Date is less than start Date");
@@ -76,18 +70,6 @@ namespace PPM_Domain
             return objProj.List();
         }
 
-        //public string s(ProjectModel project)
-        //{
-        //    //if (objProj.ListAll().Any(p => p.ProjectName == project.ProjectName))
-        //    //{
-        //    //    return ("Project Allready exist");
-        //    //}
-        //    if (project.ProjectStartDate > project.ProjectEndDate)
-        //    {
-        //        return ("End Date is less than start Date");
-        //    }
-        //    return "";
 
-        //}
     }
 }

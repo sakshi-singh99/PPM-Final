@@ -13,31 +13,7 @@ namespace PPM_Domain
         AddEmpToProjList objMap = new AddEmpToProjList();
         public string AddEmp(EmployeeModel employee)
         {
-            //Regex regexEfname = new Regex("^[A-Z][a-zA-Z ]*$");
-            //Regex regexElname = new Regex("^[A-Z][a-zA-Z ]*$");
-            //Regex regexEemail = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-            //Regex regexEmobile = new Regex(@"\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})");
-            //Regex regexEaddress = new Regex(@"^[A-Z][a-zA-Z ]*$");
-            //if (!regexEfname.Match(employee.EmpFirstName).Success)
-            //{
-            //    throw new System.Exception("Invalid First Name !!");
-            //}
-            //if (!regexElname.Match(employee.EmpLastName).Success)
-            //{
-            //    throw new System.Exception("Invalid Last Name !!");
-            //}
-            //if (!regexEemail.Match(employee.EmpEmail).Success)
-            //{
-            //    throw new System.Exception("Invalid Email Id !!");
-            //}
-            //if (!regexEmobile.Match(employee.EmpMobile).Success)
-            //{
-            //    throw new System.Exception("Invalid Mobile Number !!");
-            //}
-            //if (!regexEaddress.Match(employee.EmpAddress).Success)
-            //{
-            //    throw new System.Exception("Invalid Address !!");
-            //}
+            
             if (objemp.ListAll().Any(p => p.EmpEmail == employee.EmpEmail))
             {
                 return("Employee Allready exist");

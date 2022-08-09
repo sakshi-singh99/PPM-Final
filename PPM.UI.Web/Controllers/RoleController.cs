@@ -57,8 +57,6 @@ namespace PPM.UI.Web.Controllers
                 db.SaveChanges();
             }
 
-            //var role = obj.Listrole();
-            //ViewBag.RoleModel = new SelectList(role, "RoleId", "RoleName");
 
             ModelState.Clear();
 
